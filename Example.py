@@ -1,6 +1,6 @@
 import Enigma as e
 
-message = "SecretMessage"
+message = "SECRETMESSAGE"
 
 machine = e.enigma([2,4,3], ["C", "E", "Y"], ["D", "S", "T"])
 
