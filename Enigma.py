@@ -2,9 +2,7 @@
 def ati(letter):
     i = ord(letter)
 
-    if i>=97 and i<=122: #a-z
-        return i-97
-    elif i>=65 and i<=90: #A-Z
+    if i>=65 and i<=90: #A-Z
         return i-65
 
 # Converts numbers 0-25 to A-Z
