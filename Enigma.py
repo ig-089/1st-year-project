@@ -87,13 +87,13 @@ class enigma:
             #Rotate rotor
             hasRotated = False # if rotNext has rotated.
 
-            for k in range(2):
+            for i in range(2):
                 if hasRotated is True:
                     hasRotated = False
                     continue
 
-                rotCurrent = self.rotorBuffer[k]
-                rotNext = self.rotorBuffer[k+1]
+                rotCurrent = self.rotorBuffer[i]
+                rotNext = self.rotorBuffer[i+1]
 
                 if rotNext.notchPosition == rotNext.rotorPosition:
                     rotCurrent.rotate()  
